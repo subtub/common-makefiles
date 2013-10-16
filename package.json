@@ -1,0 +1,17 @@
+{
+  "name": "Makefiles",
+  "version": "0.0.1",
+  "description": "Set of different Makefiles",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WrongEntertainment/Makefiles.git"
+  },
+  "keywords": [
+    "Makefile"
+  ],
+  "author": "Paul Vollmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WrongEntertainment/Makefiles/issues"
+  }
+}
