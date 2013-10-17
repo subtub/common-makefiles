@@ -1,7 +1,7 @@
 ###
-#
+# The Repository name and version
 ###
-MAKEFILE_NAME = "Makefiles"
+MAKEFILE_NAME = "CommonMakefiles"
 MAKEFILE_VERSION = "0.0.1"
 
 ###
@@ -13,8 +13,8 @@ SHELL=/bin/sh
 # Delete a directory
 ###
 define CLEAN_RULE
-        @echo "Delete '${1}' directory"
-        $(shell rm -rf ${1})
+	@echo "Delete '${1}' directory"
+	$(shell rm -rf ${1})
 endef
 
 ###
