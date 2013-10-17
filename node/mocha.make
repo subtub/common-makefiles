@@ -9,15 +9,15 @@ endif
 
 ifndef MOCHA_TIMEOUT
 	MOCHA_TIMEOUT := 2000
-endef
+endif
 
 ifndef MOCHA_SLOW
 	MOCHA_SLOW := 75
-endef
+endif
 
 define MOCHA_HELP
 	"  test                          Test with mocha.\n  test-hint                     Hint and test with mocha."
-endef
+endif
 
 
 ###
