@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git://github.com/WrongEntertainment/CommonMakefiles.git"
   },
+  "scripts": {
+    "test": "sh test/test.sh"
+  },
   "keywords": [
     "Makefile"
   ],
