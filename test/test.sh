@@ -1,4 +1,4 @@
-${COMMON_MAKEFILES_PATH}=../
+$(COMMON_MAKEFILES_PATH)=../
 
 ###
 # lib/base.make
