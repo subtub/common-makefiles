@@ -9,6 +9,8 @@ MAKEFILE_VERSION = "0.0.1"
 ###
 SHELL=/bin/sh
 
+OSTYPE := $(shell uname -s)
+
 ###
 # Delete a directory
 ###
