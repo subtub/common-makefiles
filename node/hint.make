@@ -1,14 +1,16 @@
-ifdef COMMON_MAKEFILES_PATH
-	include ${COMMON_MAKEFILES_PATH}/node/variables.make
-else
-	include node/variables.make
+###
+# hint.make
+###
+
+ifndef HINT_DIR
+	HINT_DIR := lib/
 endif
 
 
-###
-# Hint
-###
 hint:
-	@node node_modules/.bin/jshint lib/
+	@node node_modules/.bin/jshint $(HINT_DIR)
 
-.PHONY: hint
+hint-version:
+	@node node_modules/.bin/jshint --version
+
+.PHONY: hint hint-version
