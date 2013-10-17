@@ -4,7 +4,7 @@
   "description": "Set of common Makefiles",
   "repository": {
     "type": "git",
-    "url": "git://github.com/WrongEntertainment/CommonMakefiles.git"
+    "url": "git://github.com/subtub/CommonMakefiles.git"
   },
   "scripts": {
     "test": "sh test/test.sh"
@@ -12,9 +12,9 @@
   "keywords": [
     "Makefile"
   ],
-  "author": "Paul Vollmer",
+  "author": "subtub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WrongEntertainment/CommonMakefiles/issues"
+    "url": "https://github.com/subtub/CommonMakefiles/issues"
   }
 }
