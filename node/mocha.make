@@ -15,7 +15,7 @@ ifndef MOCHA_SLOW
 	MOCHA_SLOW := 75
 endif
 
-define MOCHA_HELP
+ifndef MOCHA_HELP
 	"  test                          Test with mocha.\n  test-hint                     Hint and test with mocha."
 endif
 
