@@ -1,4 +1,43 @@
 ###
-# include some Makefiles
+# index.make
 ###
-include $(COMMON_MAKEFILES_PATH)/lib/base.make
+
+
+###
+# The Repository name and version
+###
+MAKEFILE_NAME = "CommonMakefiles"
+MAKEFILE_VERSION = "0.0.1"
+
+###
+# make shell executable
+###
+SHELL=/bin/sh
+
+OSTYPE := $(shell uname -s)
+
+###
+# Delete a directory
+###
+define DELETE_DIR
+	@echo "Delete '${1}' directory"
+	$(shell rm -rf ${1})
+endef
+
+###
+# help and version
+###
+help:
+	@echo ""
+	@echo $(MAKEFILE_NAME)
+	@echo ""
+	@echo "  Usage:"
+	@echo ""
+	@echo "    help"
+	@echo "    version"
+	@echo ""
+
+version:
+	@echo $(MAKEFILE_VERSION)
+
+.PHONY: help version
