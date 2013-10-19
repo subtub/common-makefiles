@@ -47,7 +47,7 @@ help:
 	$(PRINT) "  help                          Print this message and exit."
 	$(PRINT) "  version                       Print the version of the $(MAKEFILE_NAME)."
 	$(PRINT) ""
-	$(PRINT) "Report bugs to <https://github.com/WrongEntertainment/CommonMakefiles/issues>"
+	$(PRINT) "Report bugs to <https://github.com/subtub/CommonMakefiles/issues>"
 	$(PRINT) ""
 
 version:
