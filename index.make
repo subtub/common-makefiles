@@ -43,6 +43,7 @@ help:
 	$(PRINT) ""
 	$(PRINT) $(MOCHA_HELP)
 	$(PRINT) $(HINT_HELP)
+	$(PRINT) $(SUBTOOL_HELP)
 	$(PRINT) ""
 	$(PRINT) "  help                          Print this message and exit."
 	$(PRINT) "  version                       Print the version of the $(MAKEFILE_NAME)."
