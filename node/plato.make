@@ -25,7 +25,7 @@ plato:
 plato-gh-pages:
 	@git checkout gh-pages
 	@cp -rf $(PLATO_OUTPUT_DIR) ../$(PLATO_OUTPUT_DIR)
-	@git checkout develop
+	@git checkout master
 	@mv ../$(PLATO_OUTPUT_DIR) $(PLATO_OUTPUT_DIR)
 	$(MAKE) plato
 	@mv $(PLATO_OUTPUT_DIR) ../$(PLATO_OUTPUT_DIR)
@@ -34,6 +34,7 @@ plato-gh-pages:
 	@mv ../$(PLATO_OUTPUT_DIR) $(PLATO_OUTPUT_DIR)
 	@git add report/
 	@git commit -m "Report updated by CommonMakefiles"
-	@git checkout develop
+	@git push
+	@git checkout master
 
 .PHONY: plato plato-gh-pages
