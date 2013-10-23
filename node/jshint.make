@@ -15,11 +15,11 @@ endef
 ###
 # Targets
 ###
-hint:
+jshint:
 	@node node_modules/.bin/jshint $(HINT_DIR)
 	$(PRINT) "Hinting Finished"
 
-hint-version:
+jshint-version:
 	@node node_modules/.bin/jshint --version
 
-.PHONY: hint hint-version
+.PHONY: jshint jshint-version
