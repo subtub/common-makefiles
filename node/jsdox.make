@@ -16,12 +16,19 @@ ifndef JSDOX_FILENAME
 endif
 
 
+JSDOX_DEFAULT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/index.md
+JSDOX_CURRENT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/$(JSDOX_FILENAME)
+
 ###
 # Targets
 ###
 jsdox:
+	@rm -rf $(JSDOX_CURRENT_PATH)
+	@echo "## API\n \
+	" > $(JSDOX_CURRENT_PATH)
 	@node node_modules/.bin/jsdox --output $(JSDOX_OUTPUT) $(JSDOX_INPUT)
-	@mv $(CURDIR)/$(JSDOX_OUTPUT)/index.md $(CURDIR)/$(JSDOX_OUTPUT)/$(JSDOX_FILENAME)
-	$(PRINT) "Docs Finished"
+	@cat $(JSDOX_DEFAULT_PATH) >> $(JSDOX_CURRENT_PATH)
+	@rm $(JSDOX_DEFAULT_PATH)
+	$(PRINT) "jsdox Finished"
 
 .PHONY: jsdox
