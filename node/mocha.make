@@ -16,17 +16,15 @@ ifndef MOCHA_SLOW
 endif
 
 ifndef MOCHA_HELP
-	MOCHA_HELP := "  test                          Test with mocha.\n  test-hint                     Hint and test with mocha."
+	MOCHA_HELP := "  mocha                         Test with mocha."
 endif
 
 
 ###
 # Targets
 ###
-test:
+mocha:
 	@node node_modules/.bin/mocha --timeout $(MOCHA_TIMEOUT) --slow $(MOCHA_SLOW) --reporter $(MOCHA_REPORTER)
-	$(PRINT) "Test Finished"
+	$(PRINT) "Mocha Test Finished!"
 
-test-hint: jshint test
-
-.PHONY: test test-hint
+.PHONY: mocha
