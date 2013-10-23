@@ -27,6 +27,6 @@ test:
 	@node node_modules/.bin/mocha --timeout $(MOCHA_TIMEOUT) --slow $(MOCHA_SLOW) --reporter $(MOCHA_REPORTER)
 	$(PRINT) "Test Finished"
 
-test-hint: hint test
+test-hint: jshint test
 
 .PHONY: test test-hint
