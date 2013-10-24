@@ -1,0 +1,1 @@
+CommonMakefiles <%>script: node src/makefile_base/getVersion.js</%>
