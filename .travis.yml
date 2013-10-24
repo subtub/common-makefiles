@@ -1,17 +1,8 @@
 language: node_js
 node_js:
-- 0.10
+- "0.10"
 
 notifications:
   email:
     recipients:
     - paul@subtub.io
-
-deploy:
-  provider: npm
-  email: mail@subtub.io
-  api_key:
-    secure: Nd3JbHwfC2/nkOMLU8lMSqglBP7nOsUU/KPktCAD0sk/EjtL5N2FBqkmt9rkBUIHy56Ey5pqBccWTMMRrL1CZzNQlgfLgO5UO8vPt4xQ6Mt9bGSPuZ9tkR8XIXvnAkI6C6QjtNeOlCnMJVV6q1Hf2/VyA5R2Hqu7t2kMNKED40U=
-  on:
-    tags: true
-    repo: subtub/CommonMakefiles

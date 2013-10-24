@@ -1,11 +1,11 @@
 {
-  "name": "common-makefiles",
-  "version": "0.1.0",
-  "author": "subtub",
+  "name": "CommonMakefiles",
   "description": "Set of common Makefiles",
+  "version": "0.1.0",
   "keywords": [
     "Makefile"
   ],
+  "author": "subtub",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
     "test": "sh scripts/test.sh"
   },
   "devDependencies": {
-    "RecursiveContentInclude": "https://github.com/subtub/RecursiveContentInclude/archive/v0.3.0.tar.gz"
+    "RecursiveContentInclude": "https://github.com/subtub/RecursiveContentInclude/archive/v0.3.1.tar.gz"
   }
 }
