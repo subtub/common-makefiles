@@ -12,3 +12,6 @@ echo "    plato.make"
 make -f plato.make plato-help
 echo "    subtool.make"
 make -f subtool.make subtool-help
+
+echo "--> Test clean Script"
+sh scripts/clean.sh

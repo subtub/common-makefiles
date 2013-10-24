@@ -12,7 +12,7 @@ endif
 
 jshint:
 	@node node_modules/.bin/jshint $(HINT_DIR)
-	$(PRINT) "Hinting Finished"
+	@echo "Hinting Finished"
 
 jshint-version:
 	@node node_modules/.bin/jshint --version

@@ -24,7 +24,7 @@ endif
 
 mocha:
 	@node node_modules/.bin/mocha --timeout $(MOCHA_TIMEOUT) --slow $(MOCHA_SLOW) --reporter $(MOCHA_REPORTER)
-	$(PRINT) "Mocha Test Finished!"
+	@echo "Mocha Test Finished!"
 
 mocha-help:
 	@echo ""

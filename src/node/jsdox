@@ -28,7 +28,7 @@ jsdox:
 	@node node_modules/.bin/jsdox --output $(JSDOX_OUTPUT) $(JSDOX_INPUT)
 	@cat $(JSDOX_DEFAULT_PATH) >> $(JSDOX_CURRENT_PATH)
 	@rm $(JSDOX_DEFAULT_PATH)
-	$(PRINT) "jsdox Finished"
+	@echo "jsdox Finished"
 
 jsdox-help:
 	@echo ""
