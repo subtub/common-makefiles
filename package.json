@@ -18,7 +18,7 @@
     "install": "sh scripts/build.sh",
     "test": "sh scripts/test.sh"
   },
-  "devDependencies": {
+  "dependencies": {
     "RecursiveContentInclude": "https://github.com/subtub/RecursiveContentInclude/archive/v0.3.1.tar.gz"
   }
 }
