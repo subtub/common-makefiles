@@ -10,3 +10,5 @@ echo "    mocha.make"
 make -f mocha.make mocha-help
 echo "    plato.make"
 make -f plato.make plato-help
+echo "    subtool.make"
+make -f subtool.make subtool-help

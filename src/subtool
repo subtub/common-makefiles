@@ -1,4 +1,4 @@
-<%>src/fileheader</%>
+<%>src/assets/fileheader</%>
 
 ifndef SUBTOOL_HELP
 	SUBTOOL_HELP := "  subtool-readme \n  subtool-readme-git"
@@ -14,4 +14,17 @@ subtool-readme:
 subtool-readme-git:
 	@node node_modules/subtool/bin/subtool readme -g
 
-.PHONY: subtool-readme subtool-readme-git
+subtool-help:
+	@echo ""
+	@echo "<%>src/assets/help-headline</%>"
+	@echo ""
+	@echo "Usage:"
+	@echo ""
+	@echo "  subtool-readme              Generate the README file"
+	@echo "  subtool-readme-git          Generate the README file and git commit"
+	@echo "  subtool-help                Show this help"
+	@echo ""
+	@echo "<%>src/assets/report-bugs</%>"
+	@echo ""
+
+.PHONY: subtool-readme subtool-readme-git subtool-help
