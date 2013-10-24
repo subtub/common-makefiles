@@ -1,7 +1,6 @@
 ###
-# jsdox.make
+# jsdox
 ###
-
 
 ifndef JSDOX_INPUT
 	JSDOX_INPUT := lib
@@ -15,13 +14,11 @@ ifndef JSDOX_FILENAME
 	JSDOX_FILENAME := api.md
 endif
 
-
 JSDOX_DEFAULT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/index.md
 JSDOX_CURRENT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/$(JSDOX_FILENAME)
 
-###
 # Targets
-###
+
 jsdox:
 	@rm -rf $(JSDOX_CURRENT_PATH)
 	@echo "## API\n \
@@ -31,4 +28,14 @@ jsdox:
 	@rm $(JSDOX_DEFAULT_PATH)
 	$(PRINT) "jsdox Finished"
 
-.PHONY: jsdox
+jsdox-help:
+	@echo ""
+	@echo "Usage:"
+	@echo ""
+	@echo "  jsdox                       Build the docs"
+	@echo "  jsdox-help                  Show this help"
+	@echo ""
+	@echo "<%>src/makefile_base/report-bugs</%>"
+	@echo ""
+
+.PHONY: jsdox jsdox-help

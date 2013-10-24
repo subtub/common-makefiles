@@ -1,20 +1,13 @@
 ###
-# hint.make
+# jshint
 ###
-
 
 ifndef HINT_DIR
 	HINT_DIR := lib/
 endif
 
-define HINT_HELP
-	"  hint                          Hint some files.\n  hint-version                  Get the jshint version."
-endef
-
-
-###
 # Targets
-###
+
 jshint:
 	@node node_modules/.bin/jshint $(HINT_DIR)
 	$(PRINT) "Hinting Finished"
@@ -22,4 +15,15 @@ jshint:
 jshint-version:
 	@node node_modules/.bin/jshint --version
 
-.PHONY: jshint jshint-version
+jshint-help:
+	@echo ""
+	@echo "Usage:"
+	@echo ""
+	@echo "  jshint                      Hint some files"
+	@echo "  jshint-version              Print the jshint version"
+	@echo "  jshint-help                 Show this help"
+	@echo ""
+	@echo "<%>src/makefile_base/report-bugs</%>"
+	@echo ""
+
+.PHONY: jshint jshint-version jshint-help

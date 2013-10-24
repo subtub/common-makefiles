@@ -1,7 +1,6 @@
 ###
-# plato.make
+# plato
 ###
-
 
 ifndef PLATO_TITLE
 	PLATO_TITLE := $(shell basename $(PWD))
@@ -15,10 +14,8 @@ ifndef PLATO_FILES
 	PLATO_FILES := lib/
 endif
 
-
-###
 # Targets
-###
+
 plato:
 	@node node_modules/.bin/plato --title $(PLATO_TITLE) --recurse --dir $(PLATO_OUTPUT_DIR) $(PLATO_FILES)
 
@@ -37,4 +34,15 @@ plato-gh-pages:
 	@git push
 	@git checkout master
 
-.PHONY: plato plato-gh-pages
+plato-help:
+	@echo ""
+	@echo "Usage:"
+	@echo ""
+	@echo "  plato                       Run the report generator"
+	@echo "  plato-gh-pages              Run the report generator and push the changes to the gh-pages branch"
+	@echo "  plato-help                  Show this help"
+	@echo ""
+	@echo "<%>src/makefile_base/report-bugs</%>"
+	@echo ""
+
+.PHONY: plato plato-gh-pages plato-help

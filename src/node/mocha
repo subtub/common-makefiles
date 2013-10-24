@@ -1,7 +1,6 @@
 ###
-# mocha.make
+# mocha
 ###
-
 
 ifndef MOCHA_REPORTER
 	MOCHA_REPORTER := spec
@@ -19,12 +18,20 @@ ifndef MOCHA_HELP
 	MOCHA_HELP := "  mocha                         Test with mocha."
 endif
 
-
-###
 # Targets
-###
+
 mocha:
 	@node node_modules/.bin/mocha --timeout $(MOCHA_TIMEOUT) --slow $(MOCHA_SLOW) --reporter $(MOCHA_REPORTER)
 	$(PRINT) "Mocha Test Finished!"
 
-.PHONY: mocha
+mocha-help:
+	@echo ""
+	@echo "Usage:"
+	@echo ""
+	@echo "  mocha                       Run the tests with mocha"
+	@echo "  mocha-help                  Show this help"
+	@echo ""
+	@echo "<%>src/makefile_base/report-bugs</%>"
+	@echo ""
+
+.PHONY: mocha mocha-help
