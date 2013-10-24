@@ -1,2 +1,2 @@
-
-make -f index.make
+echo "Test build.sh"
+sh build.sh
