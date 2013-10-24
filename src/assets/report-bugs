@@ -1,1 +1,1 @@
-Report bugs to <<%>script: node src/makefile_base/getBugsUrl.js</%>>
+Report bugs to <<%>script: node src/assets/getBugsUrl.js</%>>

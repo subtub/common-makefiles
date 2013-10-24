@@ -1,1 +1,1 @@
-CommonMakefiles v<%>script: node src/makefile_base/getVersion.js</%>
+CommonMakefiles v<%>script: node src/assets/getVersion.js</%>

@@ -1,3 +1,5 @@
+<%>src/fileheader</%>
+
 ###
 # jsdox
 ###
@@ -30,12 +32,14 @@ jsdox:
 
 jsdox-help:
 	@echo ""
+	@echo "<%>src/assets/help-headline</%>"
+	@echo ""
 	@echo "Usage:"
 	@echo ""
 	@echo "  jsdox                       Build the docs"
 	@echo "  jsdox-help                  Show this help"
 	@echo ""
-	@echo "<%>src/makefile_base/report-bugs</%>"
+	@echo "<%>src/assets/report-bugs</%>"
 	@echo ""
 
 .PHONY: jsdox jsdox-help
