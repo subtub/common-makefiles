@@ -15,7 +15,7 @@
     "url": "https://github.com/subtub/CommonMakefiles/issues"
   },
   "scripts": {
-    "install": "sh scripts/build.sh"
+    "install": "sh scripts/build.sh",
     "test": "sh scripts/test.sh"
   },
   "devDependencies": {
