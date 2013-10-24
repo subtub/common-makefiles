@@ -4,7 +4,7 @@
 # The Repository name and version
 ###
 MAKEFILE_NAME = "CommonMakefiles"
-MAKEFILE_VERSION = "<%>script: node src/getVersion.js</%>"
+MAKEFILE_VERSION = "<%>script: node src/makefile_base/getVersion.js</%>"
 
 ###
 # make shell executable
@@ -45,7 +45,7 @@ help:
 	$(PRINT) $(HINT_HELP)
 	$(PRINT) $(SUBTOOL_HELP)
 	$(PRINT) ""
-	$(PRINT) "Report bugs to <<%>script: node src/getBugsUrl.js</%>>"
+	$(PRINT) "Report bugs to <<%>script: node src/makefile_base/getBugsUrl.js</%>>"
 	$(PRINT) ""
 
 version:
