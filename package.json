@@ -19,6 +19,6 @@
     "test": "sh scripts/test.sh"
   },
   "devDependencies": {
-    "RecursiveContentInclude": "https://github.com/WrongEntertainment/RecursiveContentInclude/archive/v0.3.0.tar.gz"
+    "RecursiveContentInclude": "https://github.com/subtub/RecursiveContentInclude/archive/v0.3.0.tar.gz"
   }
 }
