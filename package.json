@@ -1,20 +1,23 @@
 {
   "name": "common-makefiles",
   "version": "0.0.5",
+  "author": "subtub",
   "description": "Set of common Makefiles",
+  "keywords": [
+    "Makefile"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/subtub/CommonMakefiles.git"
   },
+  "bugs": {
+    "url": "https://github.com/subtub/CommonMakefiles/issues"
+  },
   "scripts": {
     "test": "sh test/test.sh"
   },
-  "keywords": [
-    "Makefile"
-  ],
-  "author": "subtub",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/subtub/CommonMakefiles/issues"
+  "devDependencies": {
+    "RecursiveContentInclude": "https://github.com/WrongEntertainment/RecursiveContentInclude/archive/v0.3.0.tar.gz"
   }
 }
