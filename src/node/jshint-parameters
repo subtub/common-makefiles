@@ -1,0 +1,5 @@
+# jshint parameter
+
+ifndef HINT_DIR
+	HINT_DIR := lib/
+endif

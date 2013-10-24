@@ -1,0 +1,26 @@
+# plato targets
+
+plato:
+	@node node_modules/.bin/plato --title $(PLATO_TITLE) --recurse --dir $(PLATO_OUTPUT_DIR) $(PLATO_FILES)
+
+plato-gh-pages:
+	@git checkout gh-pages
+	@cp -rf $(PLATO_OUTPUT_DIR) ../$(PLATO_OUTPUT_DIR)
+	@git checkout master
+	@mv ../$(PLATO_OUTPUT_DIR) $(PLATO_OUTPUT_DIR)
+	$(MAKE) plato
+	@mv $(PLATO_OUTPUT_DIR) ../$(PLATO_OUTPUT_DIR)
+	@git checkout gh-pages
+	@rm -rf $(PLATO_OUTPUT_DIR)
+	@mv ../$(PLATO_OUTPUT_DIR) $(PLATO_OUTPUT_DIR)
+	@git add report/
+	@git commit -m "Report updated by CommonMakefiles"
+	@git push
+	@git checkout master
+
+plato-help:
+<%>src/assets/help-headline</%>
+<%>src/node/plato-help</%>
+<%>src/assets/report-bugs</%>
+
+.PHONY: plato plato-gh-pages plato-help

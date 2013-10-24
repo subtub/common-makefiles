@@ -1,1 +1,3 @@
-Report bugs to <<%>script: node src/assets/getBugsUrl.js</%>>
+	@echo ""
+	@echo "Report bugs to <<%>script: node src/assets/getBugsUrl.js</%>>"
+	@echo ""

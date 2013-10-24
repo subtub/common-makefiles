@@ -1,0 +1,2 @@
+	@echo "  mocha                  Run the tests with mocha"
+	@echo "  mocha-help             Show this help"

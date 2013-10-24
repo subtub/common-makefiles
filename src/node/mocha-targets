@@ -1,0 +1,12 @@
+# mocha targets
+
+mocha:
+	@node node_modules/.bin/mocha --timeout $(MOCHA_TIMEOUT) --slow $(MOCHA_SLOW) --reporter $(MOCHA_REPORTER)
+	@echo "Mocha Test Finished!"
+
+mocha-help:
+<%>src/assets/help-headline</%>
+<%>src/node/mocha-help</%>
+<%>src/assets/report-bugs</%>
+
+.PHONY: mocha mocha-help

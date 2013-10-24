@@ -1,0 +1,5 @@
+# subtool parameter
+
+ifndef SUBTOOL_HELP
+	SUBTOOL_HELP := "  subtool-readme \n  subtool-readme-git"
+endif

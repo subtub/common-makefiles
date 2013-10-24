@@ -1,1 +1,5 @@
-CommonMakefiles v<%>script: node src/assets/getVersion.js</%>
+	@echo ""
+	@echo "CommonMakefiles v<%>script: node src/assets/getVersion.js</%>"
+	@echo ""
+	@echo "Usage:"
+	@echo ""

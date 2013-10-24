@@ -1,0 +1,14 @@
+# subtool targets
+
+subtool-readme:
+	@node node_modules/subtool/bin/subtool readme
+
+subtool-readme-git:
+	@node node_modules/subtool/bin/subtool readme -g
+
+subtool-help:
+<%>src/assets/help-headline</%>
+<%>src/subtool-help</%>
+<%>src/assets/report-bugs</%>
+
+.PHONY: subtool-readme subtool-readme-git subtool-help

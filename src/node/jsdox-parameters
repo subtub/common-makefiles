@@ -1,0 +1,16 @@
+# jsdox parameter
+
+ifndef JSDOX_INPUT
+	JSDOX_INPUT := lib
+endif
+
+ifndef JSDOX_OUTPUT
+	JSDOX_OUTPUT := docs
+endif
+
+ifndef JSDOX_FILENAME
+	JSDOX_FILENAME := api.md
+endif
+
+JSDOX_DEFAULT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/index.md
+JSDOX_CURRENT_PATH=$(CURDIR)/$(JSDOX_OUTPUT)/$(JSDOX_FILENAME)

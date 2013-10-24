@@ -1,4 +1,30 @@
-<%>src/node/jsdox</%>
-<%>src/node/jshint</%>
-<%>src/node/mocha</%>
-<%>src/node/plato</%>
+<%>src/assets/fileheader</%>
+
+###
+# the parameter
+###
+
+<%>src/node/jsdox-parameters</%>
+<%>src/node/jshint-parameters</%>
+<%>src/node/mocha-parameters</%>
+<%>src/node/plato-parameters</%>
+
+
+###
+# the tasks
+###
+
+<%>src/node/jsdox-targets</%>
+<%>src/node/jshint-targets</%>
+<%>src/node/mocha-targets</%>
+<%>src/node/plato-targets</%>
+
+help:
+<%>src/assets/help-headline</%>
+<%>src/node/jsdox-help</%>
+<%>src/node/jshint-help</%>
+<%>src/node/mocha-help</%>
+<%>src/node/plato-help</%>
+<%>src/assets/report-bugs</%>
+
+.PHONY: help

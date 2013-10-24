@@ -1,0 +1,3 @@
+	@echo "  plato                  Run the report generator"
+	@echo "  plato-gh-pages         make plato and push to gh-pages branch"
+	@echo "  plato-help             Show this help"

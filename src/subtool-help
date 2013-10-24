@@ -1,0 +1,3 @@
+	@echo "  subtool-readme         Generate the README file"
+	@echo "  subtool-readme-git     Generate the README file and git commit"
+	@echo "  subtool-help           Show this help"
