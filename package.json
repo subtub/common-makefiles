@@ -1,6 +1,6 @@
 {
-  "name": "CommonMakefiles",
-  "version": "0.0.1",
+  "name": "common-makefiles",
+  "version": "0.0.5",
   "description": "Set of common Makefiles",
   "repository": {
     "type": "git",
