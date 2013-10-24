@@ -1,7 +1,4 @@
-###
-# subtool.make
-###
-
+<%>src/fileheader</%>
 
 ifndef SUBTOOL_HELP
 	SUBTOOL_HELP := "  subtool-readme \n  subtool-readme-git"
