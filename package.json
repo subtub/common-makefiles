@@ -15,7 +15,7 @@
     "url": "https://github.com/subtub/CommonMakefiles/issues"
   },
   "scripts": {
-    "test": "sh test/test.sh"
+    "test": "sh scripts/test.sh"
   },
   "devDependencies": {
     "RecursiveContentInclude": "https://github.com/WrongEntertainment/RecursiveContentInclude/archive/v0.3.0.tar.gz"

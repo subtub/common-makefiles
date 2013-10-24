@@ -1,2 +1,2 @@
 echo "Test build.sh"
-sh build.sh
+sh scripts/build.sh
