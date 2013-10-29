@@ -19,6 +19,6 @@
     "test": "sh scripts/test.sh"
   },
   "dependencies": {
-    "resi": "0.4.0"
+    "resi": "0.4.1"
   }
 }
