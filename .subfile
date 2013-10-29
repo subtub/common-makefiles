@@ -1,0 +1,30 @@
+// subtool configuration file
+module.exports = { version: '0.0.2',
+
+  // Set GitHub User- and Project-Name.
+  github: {
+    username: 'subtub',
+    project: 'CommonMakefiles'
+  },
+
+  // Settings for the README.md file.
+  readme: {
+    // Generate a Table of Content Markdown list.
+    toc: true,
+    content: [
+      { title: 'General Information',  file: '/docs/general_information.md' },
+      { title: 'Installation',         file: '/docs/installation.md' },
+      { title: 'Examples',             file: '/docs/examples.md' }
+    ]
+  },
+  
+  // Set the type of License we want to use. Choose between the following types:
+  // apache, freebsd, isc, mit, newbsd
+  license: 'mit',
+
+  travis: {
+    language: 'node_js',
+    version: ['0.10']
+  }
+  
+}
