@@ -1,11 +1,15 @@
 {
-  "name": "CommonMakefiles",
+  "name": "common-makefiles",
   "description": "Set of common Makefiles",
   "version": "0.1.2",
   "keywords": [
     "Makefile"
   ],
   "author": "subtub",
+  "contributors" : [
+    { "name": "Paul Vollmer",
+      "email": "paul@subtub.io" }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,15 +18,11 @@
   "bugs": {
     "url": "https://github.com/subtub/CommonMakefiles/issues"
   },
-  "engines" : {
-    "npm" : "1.3.x",
-    "node" : "0.10.x"
-  },
   "scripts": {
-    "install": "sh scripts/build.sh",
     "test": "sh scripts/test.sh"
   },
-  "dependencies": {
-    "resi": "0.4.1"
+  "devDependencies": {
+    "resi": "0.4.1",
+    "subtool": "https://github.com/subtub/subtool/archive/v0.0.6.tar.gz"
   }
 }
