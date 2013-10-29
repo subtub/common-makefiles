@@ -1,7 +1,7 @@
 {
   "name": "CommonMakefiles",
   "description": "Set of common Makefiles",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": [
     "Makefile"
   ],
@@ -13,6 +13,10 @@
   },
   "bugs": {
     "url": "https://github.com/subtub/CommonMakefiles/issues"
+  },
+  "engines" : {
+    "npm" : "1.3.x",
+    "node" : "0.10.x"
   },
   "scripts": {
     "install": "sh scripts/build.sh",
