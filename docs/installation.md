@@ -1,7 +1,11 @@
 ## Install
 
-If you want to add `CommonMakefiles` to your `package.json`, paste the following oneliner:
+```
+npm install common-makefiles
+```
+
+If you want to add `common-makefiles` to your `package.json`, paste the following oneliner:
 
 ```js
-"CommonMakefiles": "https://github.com/subtub/CommonMakefiles/archive/v0.1.0.tar.gz"
+"common-makefiles": "0.2.0"
 ```

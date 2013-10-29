@@ -1,5 +1,5 @@
 	@echo ""
-	@echo "CommonMakefiles v<%>script: node src/assets/getVersion.js</%>"
+	@echo "common-makefiles v<%>script: node src/assets/getVersion.js</%>"
 	@echo ""
 	@echo "Usage:"
 	@echo ""
