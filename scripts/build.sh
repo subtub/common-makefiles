@@ -1,5 +1,8 @@
 ###
-# Build the subtool Makefile
+#
+# Build the Makefiles we need.
+# This files were published at npm registry.
+#
 ###
 node_modules/.bin/resi   --input src/subtool   --output subtool.make
 

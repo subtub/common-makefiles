@@ -1,3 +1,11 @@
+###
+#
+# Build the Makefiles and execute some make tasks.
+# After tasks finished, execute clean.sh script.
+#
+###
+
+
 echo "--> Test Building"
 sh scripts/build.sh
 
