@@ -21,8 +21,8 @@ module.exports = { version: '0.0.2',
         file: '/docs/installation.md'
       },
       {
-        title: 'Examples',    
-        file: '/docs/examples.md
+        title: 'Examples',
+        file: '/docs/examples.md'
        }
     ]
   },
