@@ -21,6 +21,11 @@
   },
   "devDependencies": {
     "resi": "0.4.1",
-    "subtool": "https://github.com/subtub/subtool/archive/v0.0.6.tar.gz"
+    "subtool": "https://github.com/subtub/subtool/archive/v0.0.6.tar.gz",
+    "apidoc": "*",
+    "jsdox": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "plato": "*"
   }
 }
