@@ -17,7 +17,7 @@
     "url": "https://github.com/subtub/common-makefiles/issues"
   },
   "scripts": {
-    "test": "sh scripts/test.sh"
+    "test": "node node_modules/.bin/mocha --reporter spec --timeout 60000"
   },
   "devDependencies": {
     "resi": "0.4.1",
