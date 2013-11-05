@@ -5,10 +5,11 @@
 ###
 
 
-echo "Clean"
+echo "Start clean.sh"
 rm subtool.make
 rm node.make
 rm jsdox.make
 rm jshint.make
 rm mocha.make
 rm plato.make
+echo "clean.sh ready!"

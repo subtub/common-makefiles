@@ -9,4 +9,7 @@ mocha-help:
 <%>src/node/mocha-help</%>
 <%>src/assets/report-bugs</%>
 
-.PHONY: mocha mocha-help
+mocha-version:
+	@node node_modules/.bin/mocha --version
+
+.PHONY: mocha mocha-help mocha-version

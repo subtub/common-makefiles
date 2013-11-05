@@ -23,4 +23,7 @@ plato-help:
 <%>src/node/plato-help</%>
 <%>src/assets/report-bugs</%>
 
-.PHONY: plato plato-gh-pages plato-help
+plato-version:
+	@node node_modules/.bin/plato --version
+
+.PHONY: plato plato-gh-pages plato-help plato-version

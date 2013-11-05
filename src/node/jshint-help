@@ -1,3 +1,3 @@
-	@echo "  jshint                 Hint some files"
-	@echo "  jshint-version         Print the jshint version"
-	@echo "  jshint-help            Show this help"
+	@echo "  jshint                 hint some files"
+	@echo "  jshint-help            output usage information"
+	@echo "  jshint-version         output the version number"
