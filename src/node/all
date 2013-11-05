@@ -8,7 +8,7 @@
 <%>src/node/plato-parameters</%>
 
 # the tasks
-<%>src/node/api-targets</%>
+<%>src/node/apidoc-targets</%>
 <%>src/node/jsdox-targets</%>
 <%>src/node/jshint-targets</%>
 <%>src/node/mocha-targets</%>
