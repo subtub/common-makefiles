@@ -1,4 +1,4 @@
 <%>src/assets/fileheader</%>
 
-<%>src/node/apidoc-parameters</%>
-<%>src/node/apidoc-targets</%>
+<%>src/node/apidoc/parameters</%>
+<%>src/node/apidoc/targets</%>

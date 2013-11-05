@@ -5,7 +5,7 @@ apidoc:
 
 apidoc-help:
 <%>src/assets/help-headline</%>
-<%>src/node/apidoc-help</%>
+<%>src/node/apidoc/help</%>
 <%>src/assets/report-bugs</%>
 
 .PHONY: apidoc apidoc-help

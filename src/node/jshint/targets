@@ -6,7 +6,7 @@ jshint:
 
 jshint-help:
 <%>src/assets/help-headline</%>
-<%>src/node/jshint-help</%>
+<%>src/node/jshint/help</%>
 <%>src/assets/report-bugs</%>
 
 jshint-version:

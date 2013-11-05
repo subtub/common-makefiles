@@ -1,4 +1,4 @@
 <%>src/assets/fileheader</%>
 
-<%>src/subtool-parameters</%>
-<%>src/subtool-targets</%>
+<%>src/subtool/parameters</%>
+<%>src/subtool/targets</%>

@@ -20,7 +20,7 @@ plato-gh-pages:
 
 plato-help:
 <%>src/assets/help-headline</%>
-<%>src/node/plato-help</%>
+<%>src/node/plato/help</%>
 <%>src/assets/report-bugs</%>
 
 plato-version:
