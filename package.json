@@ -1,10 +1,8 @@
 {
   "name": "common-makefiles",
-  "description": "Set of common Makefiles",
   "version": "0.2.0",
-  "keywords": [
-    "Makefile"
-  ],
+  "description": "Set of common Makefiles",
+  "keywords": [ "Makefile" ],
   "author": "subtub",
   "contributors" : [
     { "name": "Paul Vollmer",
@@ -13,10 +11,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/subtub/CommonMakefiles.git"
+    "url": "git://github.com/subtub/common-makefiles.git"
   },
   "bugs": {
-    "url": "https://github.com/subtub/CommonMakefiles/issues"
+    "url": "https://github.com/subtub/common-makefiles/issues"
   },
   "scripts": {
     "test": "sh scripts/test.sh"
