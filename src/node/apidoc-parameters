@@ -1,0 +1,9 @@
+# apidoc parameter
+
+ifndef APIDOC_INPUT
+	APIDOC_INPUT := routes/
+endif
+
+ifndef APIDOC_OUTPUT
+	APIDOC_OUTPUT := docs/
+endif
