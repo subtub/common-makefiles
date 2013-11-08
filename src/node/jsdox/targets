@@ -11,7 +11,7 @@ jsdox:
 
 jsdox-help:
 <%>src/assets/help-headline</%>
-<%>src/node/jsdox-help</%>
+<%>src/node/jsdox/help</%>
 <%>src/assets/report-bugs</%>
 
 .PHONY: jsdox jsdox-help

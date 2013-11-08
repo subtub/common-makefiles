@@ -6,6 +6,7 @@ node_modules
 ###
 subtool.make
 node.make
+apidoc.make
 jsdox.make
 jshint.make
 mocha.make

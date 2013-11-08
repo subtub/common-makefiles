@@ -8,7 +8,10 @@ subtool-readme-git:
 
 subtool-help:
 <%>src/assets/help-headline</%>
-<%>src/subtool-help</%>
+<%>src/subtool/help</%>
 <%>src/assets/report-bugs</%>
 
-.PHONY: subtool-readme subtool-readme-git subtool-help
+subtool-version:
+	@node node_modules/subtool/bin/subtool --version
+
+.PHONY: subtool-readme subtool-readme-git subtool-help subtool-version

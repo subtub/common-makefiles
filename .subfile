@@ -12,9 +12,18 @@ module.exports = { version: '0.0.2',
     // Generate a Table of Content Markdown list.
     toc: true,
     content: [
-      { title: 'General Information',  file: '/docs/general_information.md' },
-      { title: 'Installation',         file: '/docs/installation.md' },
-      { title: 'Examples',             file: '/docs/examples.md' }
+      {
+        title: 'General Information',
+        file: '/docs/general_information.md'
+      },
+      {
+        title: 'Installation',
+        file: '/docs/installation.md'
+      },
+      {
+        title: 'Examples',
+        file: '/docs/examples.md'
+       }
     ]
   },
   

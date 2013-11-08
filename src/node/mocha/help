@@ -1,0 +1,3 @@
+	@echo "  mocha                  run the tests with mocha"
+	@echo "  mocha-help             output usage information"
+	@echo "  mocha-version          output the version number"

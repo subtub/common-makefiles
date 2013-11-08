@@ -1,4 +1,0 @@
-<%>src/assets/fileheader</%>
-
-<%>src/node/mocha-parameters</%>
-<%>src/node/mocha-targets</%>

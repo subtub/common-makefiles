@@ -1,0 +1,2 @@
+	@echo "  jsdox                  build the docs"
+	@echo "  jsdox-help             output usage information"

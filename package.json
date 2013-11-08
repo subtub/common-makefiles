@@ -1,10 +1,8 @@
 {
   "name": "common-makefiles",
+  "version": "0.2.1",
   "description": "Set of common Makefiles",
-  "version": "0.2.0",
-  "keywords": [
-    "Makefile"
-  ],
+  "keywords": [ "Makefile" ],
   "author": "subtub",
   "contributors" : [
     { "name": "Paul Vollmer",
@@ -13,16 +11,21 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/subtub/CommonMakefiles.git"
+    "url": "git://github.com/subtub/common-makefiles.git"
   },
   "bugs": {
-    "url": "https://github.com/subtub/CommonMakefiles/issues"
+    "url": "https://github.com/subtub/common-makefiles/issues"
   },
   "scripts": {
-    "test": "sh scripts/test.sh"
+    "test": "node node_modules/.bin/mocha --reporter spec --timeout 60000"
   },
   "devDependencies": {
     "resi": "0.4.1",
-    "subtool": "https://github.com/subtub/subtool/archive/v0.0.6.tar.gz"
+    "subtool": "https://github.com/subtub/subtool/archive/v0.0.7.tar.gz",
+    "apidoc": "*",
+    "jsdox": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "plato": "*"
   }
 }

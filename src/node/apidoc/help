@@ -1,0 +1,2 @@
+	@echo "  apidoc                  Build the api docs"
+	@echo "  apidoc-help             output usage information"

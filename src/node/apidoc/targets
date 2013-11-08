@@ -1,0 +1,11 @@
+# apidoc targets
+
+apidoc:
+	@node node_modules/.bin/apidoc --input $(APIDOC_INPUT) --output $(APIDOC_OUTPUT)
+
+apidoc-help:
+<%>src/assets/help-headline</%>
+<%>src/node/apidoc/help</%>
+<%>src/assets/report-bugs</%>
+
+.PHONY: apidoc apidoc-help
