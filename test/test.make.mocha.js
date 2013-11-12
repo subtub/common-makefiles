@@ -9,4 +9,10 @@ describe('test.make.mocha', function() {
     });
   });
 
+  it('mocha-version', function(done) {
+    utils.execute('make -f mocha.make mocha-version', function() {
+      done();
+    });
+  });
+
 });

@@ -9,4 +9,10 @@ describe('test.make.plato', function() {
     });
   });
 
+  it('plato-version', function(done) {
+    utils.execute('make -f plato.make plato-version', function() {
+      done();
+    });
+  });
+
 });

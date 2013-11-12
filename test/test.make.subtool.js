@@ -9,4 +9,10 @@ describe('test.make.subtool', function() {
     });
   });
 
+  it('subtool-version', function(done) {
+    utils.execute('make -f subtool.make subtool-version', function() {
+      done();
+    });
+  });
+
 });
