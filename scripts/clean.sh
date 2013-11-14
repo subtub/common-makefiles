@@ -6,6 +6,7 @@
 
 
 echo "Start clean.sh"
+rm apidoc.make
 rm subtool.make
 rm node.make
 rm jsdox.make

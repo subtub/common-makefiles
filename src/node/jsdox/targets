@@ -1,6 +1,6 @@
 # jsdox targets
 
-jsdox:
+jsdox-extra:
 	@rm -rf $(JSDOX_CURRENT_PATH)
 	@echo "## API\n \
 	" > $(JSDOX_CURRENT_PATH)
@@ -8,6 +8,9 @@ jsdox:
 	@cat $(JSDOX_DEFAULT_PATH) >> $(JSDOX_CURRENT_PATH)
 	@rm $(JSDOX_DEFAULT_PATH)
 	@echo "jsdox Finished"
+
+jsdox:
+	@node node_modules/.bin/jsdox --output $(JSDOX_OUTPUT) $(JSDOX_INPUT)
 
 jsdox-help:
 <%>src/assets/help-headline</%>

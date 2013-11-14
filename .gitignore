@@ -11,3 +11,10 @@ jsdox.make
 jshint.make
 mocha.make
 plato.make
+
+###
+# Test
+###
+test/files/apidoc/docs/
+test/files/jsdox/hello.md
+test/files/plato/report/

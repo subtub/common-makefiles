@@ -11,7 +11,3 @@ endif
 ifndef MOCHA_SLOW
 	MOCHA_SLOW := 75
 endif
-
-ifndef MOCHA_HELP
-	MOCHA_HELP := "  mocha                         Test with mocha."
-endif

@@ -23,7 +23,11 @@ module.exports = { version: '0.0.2',
       {
         title: 'Examples',
         file: '/docs/examples.md'
-       }
+      },
+      {
+        title: 'Parameters',
+        file: '/docs/parameters.md'
+      }
     ]
   },
   

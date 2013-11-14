@@ -1,7 +1,7 @@
 {
   "name": "common-makefiles",
-  "version": "0.2.1",
-  "description": "Set of common Makefiles",
+  "version": "0.3.0",
+  "description": "A set of common makefiles used at node projects.",
   "keywords": [ "Makefile" ],
   "author": "subtub",
   "contributors" : [
@@ -17,7 +17,7 @@
     "url": "https://github.com/subtub/common-makefiles/issues"
   },
   "scripts": {
-    "test": "node node_modules/.bin/mocha --reporter spec --timeout 60000"
+    "test": "node node_modules/.bin/mocha --reporter spec --timeout 60000; sh scripts/clean.sh"
   },
   "devDependencies": {
     "resi": "0.4.1",

@@ -1,4 +1,4 @@
-## Example
+## Examples
 
 If you want to include node.js tasks to your project Makefile getting started with the following snippet:
 
