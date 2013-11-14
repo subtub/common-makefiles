@@ -8,5 +8,11 @@ describe('test.make.apidoc', function() {
       done();
     });
   });
+
+  it('apidoc-help', function(done) {
+    utils.execute('make -f test/files/apidoc/Makefile apidoc', function() {
+      done();
+    });
+  });
   
 });
