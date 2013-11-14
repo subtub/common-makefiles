@@ -15,4 +15,10 @@ describe('test.make.plato', function() {
     });
   });
 
+  it('plato', function(done) {
+    utils.execute('make -f test/files/plato/Makefile plato', function() {
+      done();
+    });
+  });
+
 });

@@ -17,3 +17,4 @@ plato.make
 ###
 test/files/apidoc/docs/
 test/files/jsdox/hello.md
+test/files/plato/report/
