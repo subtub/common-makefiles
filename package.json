@@ -1,6 +1,6 @@
 {
   "name": "common-makefiles",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A set of common makefiles used at node projects.",
   "keywords": [ "Makefile" ],
   "author": "subtub",
