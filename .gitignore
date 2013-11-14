@@ -11,3 +11,8 @@ jsdox.make
 jshint.make
 mocha.make
 plato.make
+
+###
+# Test
+###
+test/files/jsdox/hello.md
